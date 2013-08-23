@@ -7,4 +7,4 @@ My Inaugural CompCon 2013 talk:
 
 ---
 
-Github repo for putting talk together? Sure! Irony. yah.
+Github repo for putting talk together? Sure! Irony. yah. Gotta dump my notes somewhere and noone in the history of ever ever will read this anyway :)
