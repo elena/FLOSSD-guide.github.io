@@ -1,0 +1,59 @@
+What is OS.
+Stallman
+Pick an editor, become very proficient in using it. t matter which one.
+
+Multiple definitions and wars. Not so interested in that.
+
+
+---
+
+No one really gives a shit about what you have to say. Publish it!
+
+You *will* go through the roller-coaster ride that is "I'm-a-hero-I'm-a-loser-I'm-the-next-markzuckerberg/billgates/brin-page-I'm-a-worthless-know-nothing-ooh-I'm-really-in-to-this-now". Seriously, I'm pretty confident that everyone goes through a similar cycle to this.
+
+Old (now) addage:
+If you're not embarrassed when you publish it, you're publishing too late.
+
+---
+
+Protip: All your mistakes will eventually be washed clean by time and entropy.
+
+
+
+
+--
+
+https://opensource.com/law/13/8/github-poss-licensing?sc_cid=70160000000bga9AAA
+
+Nick @ncoghlan_dev17 Aug
+One key caveat on the previous link: don't sacrifice your own enjoyment of an open source hobby to the pursuit of external contributors.
+
+ MoreJeff @jeffknupp17 Aug
+Open Sourcing a Python Project the Right Way http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right- Retweeted by Nick Coghlan
+
+
+@jeffknupp @jessenoller Good guide, but I always s/GitHub/SourceForge/ when reading. The open source community is a fickle beast :)
+ View conversation
+
+Ideas to proliferate the information ve just been endeavouring to disseminate.
+
+---
+
+Normalisation
+
+Change the:
+
+##### Norms
+* Stigmatise: weak, sick or in some sense "Other"
+
+##### Market
+* Regulate the market: subsidise
+
+##### Architecture
+* Characterise differently
+
+These are done both at the governing/administration as well as personal level.
+
+Mix of these modalities works depending on the circumstances. Pushing on different modes will make changes flow in different strengths and ways.
+
+Paraphrasing [Lawrence Lessig](http://blip.tv/lessig/what-thing-regulates-law-6597278) talking about something completely different.
