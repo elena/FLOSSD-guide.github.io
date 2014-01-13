@@ -77,6 +77,12 @@ Tom Preston-Werner (CEO GitHub)
 OSCon 2013
 http://www.youtube.com/watch?v=-bAAlPXB2-c
 
+
+Encouraging new programmers - the Open Tech School model
+Angus Gratton
+Kiwi PyCon 2013 (Sunday, 08 Sep 2013)
+http://www.youtube.com/watch?v=MyYs1VGvF-E
+
 ---
 
 To Watch:
@@ -105,3 +111,26 @@ FOSS Community Participation
 Uploaded on Nov 4, 2007
 Patrick McGovern, former Director of Sourceforge.net and currently with Splunk speaks about community participation around sites such as Sourceforge
 http://www.youtube.com/watch?v=bDY6G6aQ66g
+
+
+Looking after an Open Source Community
+Published on Oct 19, 2013
+Orta Therox
+Wuthering Bytes 2013
+http://www.youtube.com/watch?v=Kk-OHEPfxcE
+
+
+Keynote
+Alex "Skud" Bayley
+Open Source Bridge 2013
+http://www.youtube.com/watch?v=XuV9PfI03Jk
+
+
+Keynote
+James Vasile
+Open Source Bridge 2013
+http://www.youtube.com/watch?v=XiHsRPd_U-0
+
+
+Open Source Education in India
+http://www.youtube.com/watch?v=0ao30urVAHo
