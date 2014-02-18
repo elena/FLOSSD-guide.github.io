@@ -8,7 +8,7 @@
 
 body {
 	counter-reset:slide;
-	font:24px/2 'Open Sans', sans-serif;
+	font:24px/2 'Oswald', sans-serif;
 	}
 a {
 	text-decoration:none;
@@ -22,7 +22,7 @@ a {
 	padding:0 50px 0 0;
 	color:#555;
 	h1 {
-		font:50px 'Open Sans Light', sans-serif;
+		font:50px 'Oswald Light', sans-serif;
 		}
 	a {
 		color:$color;
@@ -101,7 +101,8 @@ a {
 	// Header
 	h2 {
 		margin:0 0 58px;
-		font:48px/1 'Open Sans Light', sans-serif;
+		font:48px/1 'Oswald', sans-serif;
+        text-transform: uppercase; 
 		}
 	// Text
 	p {
@@ -122,7 +123,7 @@ a {
 		background:rgba(#000, 0.1);
 		tab-size:4;
 		line-height:1;
-		font-family:'Anka Coder', monospace;
+		font-family:'Oxygen Mono', monospace;
 		}
 	// Quote
 	blockquote {
