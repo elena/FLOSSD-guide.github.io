@@ -199,6 +199,11 @@ Questions: Abusing license for moral advantage
 - MPLv2 came out late 2012
 - don't have to enforce, but have the option, hard to change license later
 
+%
+# Changing a license is hard
+- sign off
+- contrib to python you need to submit paper form. realz.
+
 Every last major tech company is involved in the the OSI sense now.
 
 #Why Free? Nett to zero.
@@ -219,6 +224,11 @@ $ not money
   >> - not "during the day"
   >> - exposure
   >> - omgz the best
+
+%:: Best learning tool eva
+# Best CV eva
+  >> I imagine everyone here know this:
+  >> in these economic times we're a sector that's not suffering
 
 # Ethics
  - Aaron-Swartz-factor
@@ -244,54 +254,88 @@ $ what skills you have
 %topo3
 $ what some random project owner's skills are
 
-
-# Old version of this talk.
-# Cannot independently derive this stuff: research, listen
+%:: Cannot independently derive this stuff: research, listen
+# All projects are different.
+ >> Old version of this talk.
  - do what they do, follow procedure
 
-# Kinds of projects
+%python-cookiecutter
+# We are python.
+ >> but we are python, Honestly all our projects are pretty similar.
+
+%# Kinds of projects
+# Roles: BDFL, Release Manager
+- roles
+- age
+- communication mechanism
+
+%# Kinds of projects
 - cathedral v. bizarre
-- 3 types: (UC Davies)
+- more recent research* says: 3 types
   - Foundation
   - Community driven
   - Monarchy
-- roles
-- age
-- communication mechanisms
+*UC Davies
 
-# Roles: BDFL, Release Manageer
+%# Kinds of projects
+- me says: 2 types
 
-# Have a basic idea of the project before diving in
-
-# "going to contribute to Django today" srsly.
-- don't learn here, learn "there"
-
-# Average 1 (@mako)
+%GRAPH (@mako)
+$Average 1
+ >> I suspected this but then had it confirmed by
+    @mako (friend of Aaron Swartz and ubuntu co-founder)
 - vast majority projects need all the help in the world (mine included)
 - very very tiny number famous project need very very high-skill specific help
 
+%local-club
+$ probably don't be learning craft on high-profile project
+$ maybe learn on low-profile project (depending on owner)
 - Sporting team analogy
+- "going to contribute to Django today" srsly.
+- don't learn here, learn "there"
 
+# Have a basic idea of the project before diving in
+push-pull social networking github
+things are so easy on github
 # You might waltz straight in
-- it's like farting (@fat)
+- it's like farting
 
-18.5M pro
+#Summary
 
+18.5M
+11/7.5M
 
-# 50%/50%
-- MSF, EWB, Pro Bono (band, sporting team)
+%-
+If you are not a coder
+# LEARN GITHUB
+- $ git clone
+- commit, push, pull
 
-- what's *your* interest
-- what's *your* strength
-- what skill do *you* currently want to work on
-- what problem to *you* want to solve
-- what do you find satisfying to do in your spare time
-- weird form of teamwork
+ >> in 2014 this is the advice,
+ this may change but we're at a highwater mark for github right now
 
+>> conceptually it goes something like this:
+
+- #1 reach out
+|notice itch
+|find code
+|eyeball community
+
+- #2 do your thing
+|fork
+|clone
+|grep (or code, etc)
+|commit, push (to your version)
+
+- #3 send back
+|pull request
+|(comment/email)
+
+%# Learn to Look
 # Change your brain: learn to look
 
 (Never taught at uni: ) @tef
-most tiem: documenting, maintaining , fixing, testing, *reading* code
+most time: documenting, maintaining , fixing, testing, *reading* code
 Constructive Procrastination
  > students
 
@@ -301,6 +345,15 @@ Translations
 Django users
 "Meeting a personal need"
 
+- what's *your* interest
+- what's *your* strength
+- what skill do *you* currently want to work on
+- what problem to *you* want to solve
+- what do you find satisfying to do in your spare time
+- weird form of teamwork
+
+# 50%/50%
+- MSF, EWB, Pro Bono (band, sporting team)
 
 # YOU ARE AT A CONFERENCE NOW!
 - people you know
@@ -416,7 +469,7 @@ Phrase your problem in a way that's easily accessible to person w/ right skills
 # Be Cordial
  - sleeper in your ranks
  - participation is function of social participation
- >> research shows length of time 
+ >> research shows length of time
 
 # Embrace your churn (people will hang around months/years)
 
@@ -441,15 +494,6 @@ People tend not to answer the question they're asked (Jeremy Rusten)
 # Tools
 - VCS (nowadays git)
 
-Notice Itch
-find code
-eyeball community
-fork
-clone
-grep (or code, etc)
-commit, push (to your version)
-pull request
-(comment/email)
 
 //TAKE FOR GRANTED
 
