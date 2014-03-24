@@ -150,10 +150,21 @@ QuestionCopyright, GrokLaw
 
 
 //DEFINING COPYLEFT
+(so you need a license, consider copyleft!)
 
-% >
-%:: (Fun?)
+%??
+%# (Fun?)
+%:: Fine. So I need to License my code.
+$ really, depends on the project.
+  >> some bits are boring
+  >> want to allow other people to play with the fruits of your labor
   >> when you make your random script and license it
+
+don't write own ...
+- bits you might forget, eg warrantee
+- 18 years later
+
+(// quick digression explaining copyleft)
 
 %::“Open source to open source, corporation to corporation.
     If you do open source, you’re my hero and I support you.
@@ -172,10 +183,6 @@ $ must return changes; must stay GPL
   >> will make big corp do boring bits
 - it doesn't really matter at low level, but at scale, it'll matter
 
-%license-graph
-# Licenses graph
-- Never has a little guy lost
-
 @@ TRIDGE TALK
 Questions: Abusing license for moral advantage
 - devs will code around
@@ -183,12 +190,20 @@ Questions: Abusing license for moral advantage
 - fork/rename
 >> samba experience: every abuser has been ruined
 
+%license-graph
+# Licenses graph
+- Never has a little guy lost
 
 %ohloh graph
 # Python 2% (Black Duck, ohloh, @mako)
   >> no offense guys
   - ~335K/ 1% active (0.7%/0.4% high/very high)
 
+%-
+# Changing a license is hard
+%:: sign off
+%:: contrib to python you need to submit paper form. realz.
+$ choose wisely
 
 # Summary
 - why Licenses: because legally noone is allowed without
@@ -198,18 +213,13 @@ Questions: Abusing license for moral advantage
 - seriously consider proper copyleft: LGPL/Eclipse/MPL
 - MPLv2 came out late 2012
 - don't have to enforce, but have the option, hard to change license later
-
-%
-# Changing a license is hard
-- sign off
-- contrib to python you need to submit paper form. realz.
-
 Every last major tech company is involved in the the OSI sense now.
+Social waste transaction cost (quote: Daniel B. Ravicher (famous lawyer))
 
+%red-cross-through-$$
 #Why Free? Nett to zero.
  - itch to scratch: 15K, 1K, free (zero marginal cost)
 
-Social waste transaction cost (Daniel B. Ravicher)
 
 ---
 
@@ -230,6 +240,7 @@ $ not money
   >> I imagine everyone here know this:
   >> in these economic times we're a sector that's not suffering
 
+%aaron-swartz
 # Ethics
  - Aaron-Swartz-factor
  - altruism, values, "make the world a better place"
@@ -300,83 +311,12 @@ things are so easy on github
 # You might waltz straight in
 - it's like farting
 
+
 #Summary
 
 18.5M
 11/7.5M
 
-%-
-If you are not a coder
-# LEARN GITHUB
-- $ git clone
-- commit, push, pull
-
- >> in 2014 this is the advice,
- this may change but we're at a highwater mark for github right now
-
->> conceptually it goes something like this:
-
-- #1 reach out
-|notice itch
-|find code
-|eyeball community
-
-- #2 do your thing
-|fork
-|clone
-|grep (or code, etc)
-|commit, push (to your version)
-
-- #3 send back
-|pull request
-|(comment/email)
-
-%# Learn to Look
-# Change your brain: learn to look
-
-(Never taught at uni: ) @tef
-most time: documenting, maintaining , fixing, testing, *reading* code
-Constructive Procrastination
- > students
-
-Code Review (learning)
-HTML
-Translations
-Django users
-"Meeting a personal need"
-
-- what's *your* interest
-- what's *your* strength
-- what skill do *you* currently want to work on
-- what problem to *you* want to solve
-- what do you find satisfying to do in your spare time
-- weird form of teamwork
-
-# 50%/50%
-- MSF, EWB, Pro Bono (band, sporting team)
-
-# YOU ARE AT A CONFERENCE NOW!
-- people you know
-- sprints
-- things you use
-- within your domain
-( >> post "that question bothers me rant)
-
-- Find tools your friends are using (best support!)
-- Use things that are easy to install (be kind to yourself, this day and age no need to suffer, do messed-up stuff later)
-
-
-Fun, compelling, interesting and challenging and we want to do it anyway.
-
-Fun, chaotic, anarchic, opinionated >> FUN
-Serendipidy: don't know where FLOSS will go
-Zero marginal cost.
-If we're clever and we work together we can attain what is probably the highest attainment in human history. Freedom.
-Could be hyperbole but they say the "c
-
--
-
-//HOWTO CONTRIBUTE
 
 # VCS (nowadays git)
 
@@ -385,6 +325,7 @@ Could be hyperbole but they say the "c
 # 3rd great era, it may change again
 - sourceforge and github
 - bear in mind git is a bit arse to use still, 2st great DVCS
+- article so recently as 2007! lauding sourceforge
 
 # Start small
 - take nothing else away
@@ -416,12 +357,93 @@ Serious, dedicated, committed professional people
 # whose time is precious
 - committers are a very limited resource
 
+# Different things matter to different people
+- In professional environment this sucks, in open source this is magic
+
+# Don't think people will have the same motive as you (Tridg)
+- people without a good ethical sense are in FOSS too
+
 
 Punch your weight
 Play your strength
 (confident, easy: dinner parties/marathons)
 Realistic expectations
 Every project needs: designers, content makers, writers
+
+
+%-
+If you are not a coder
+# LEARN GITHUB
+- $ git clone
+- commit, push, pull
+
+ >> in 2014 this is the advice,
+ this may change but we're at a highwater mark for github right now
+
+>> conceptually it goes something like this:
+
+- #1 reach out
+|notice itch
+|find code
+|eyeball community
+
+- #2 do your thing
+|fork
+|clone
+|grep (or code, etc)
+|commit, push (to your version)
+
+- #3 send back
+|pull request
+|(comment/email)
+
+%# Learn to Look
+- rather than being a user
+think like a contributor
+reporting bugs, documentation, trivial stuff (spelling, pep8)
+# Change your brain: learn to look for ways you can help
+
+%bike-nuclear
+%"Parkinson's Law of Triviality"
+%:: 1957 argument that organizations give disproportionate weight to trivial issues
+- no domain experience/knowledge
+ >> only invested people allowed to bikeshed
+- beware of projects with a very well discussed logo and no code
+
+
+%#Things you can do
+most time: documenting, maintaining , fixing, testing, *reading* code
+> use your brains, thinking is hard
+(Never taught at uni: ) @tef
+
+%#Things you can do
+Code Review (learning)
+HTML
+Translations
+Django users
+"Meeting a personal need"
+
+- what's *your* interest
+- what's *your* strength
+- what skill do *you* currently want to work on
+- what problem to *you* want to solve
+- what do you find satisfying to do in your spare time
+- weird form of teamwork
+
+%#Things you can do
+Constructive Procrastination
+ > students
+
+%#Things you can do
+# (Not 1%) Flexible
+- (Not top 1%), but rest FOSS is really flexible.
+  Young projects can turn on a dime for your idea.
+  Envisioning and implementing all the fine details is expensive for new projects.
+
+%#Things you can do
+%:: Non-coders
+# 50%/50%
+- MSF, EWB, Pro Bono (band, sporting team)
 
 # The world needs more technical lawyers!
 - sincerely Eben Moglin, Karen Sandler
@@ -430,50 +452,60 @@ Every project needs: designers, content makers, writers
 - fight the "programming since 8" phenomenon
 
 
-# Different things matter to different people
-- In professional environment this sucks, in open source this is magic
+%#Finding projects
+# YOU ARE AT A CONFERENCE NOW!
+- sprints
+- things you use
+- people you know
+- within your "domain"
+( >> post "that question bothers me rant)
 
-# Don't think people will have the same motive as you (Tridg)
-- people without a good ethical sense are in FOSS too
+
+Fun, compelling, interesting and challenging and we want to do it anyway.
+
+Fun, chaotic, anarchic, opinionated >> FUN
+Serendipidy: don't know where FLOSS will go
+Zero marginal cost.
+If we're clever and we work together we can attain what is probably the highest attainment in human history. Freedom.
+Could be hyperbole but they say the "c
 
 
+-
 
-
-"Parkinson's Law of Triviality" -- bikeshedding
-1957 argument that organizations give disproportionate weight to trivial issues
-- wary of logos/colours
-- beware of projects with a logo and no code
-- no domain experience/knowledge
+//HOWTO PROJECT OWNER
+$ teaching grandma to suck eggs
 
 Start project:
  - Daniel/Kenneth/Jessica/Daniele
  - pull request zero
  - firefighter/anti-bikeshedder
 
-# takes work to get work done
-# Have a non-code person who answers pull requests
-# Automate all the things
+# Be Cordial
+ - sleeper in your ranks
+ - participation is function of social participation
+ >> research shows length of time
 
 # Recognition!
   >> one of the main motivations
 
+# Phrase your problem in a way that's easily accessible to person w/ right skills
+ >> offer recognition
+
+# Puppy
+# Recognise it takes work to get work done
+# Have a non-code person who answers pull requests
+# Automate all the things
 
 # Let go
 - write down everything need to do
 - highlight everything you love
 - give everything else away
 
-Phrase your problem in a way that's easily accessible to person w/ right skills
- >> offer recognition
-
-# Be Cordial
- - sleeper in your ranks
- - participation is function of social participation
- >> research shows length of time
-
-# Embrace your churn (people will hang around months/years)
-
-# Puppy
+# Embrace your churn
+- According to the research (yes, research)
+  people hang around projects on average between 3 months and 2 years
+  *people change*
+- how lone they stick around is direct function of their "social engagement" (emails, irc, bugs, etc)
 
 # Same people! different pies
 - common in community
@@ -483,17 +515,17 @@ People tend not to answer the question they're asked (Jeremy Rusten)
  >> finding requirements is hard (deep understanding)
  - get other people to do this
 
+%#Finding
+- Find tools your friends are using (best support!)
+- Use things that are easy to install (be kind to yourself, this day and age no need to suffer, do messed-up stuff later)
+
+
 
 //GENERAL
 
-# Flexible
-- (Not top 1%), but rest FOSS is really flexible.
-  Young projects can turn on a dime for your idea.
-  Envisioning and implementing all the fine details is expensive for new projects.
-
 # Tools
-- VCS (nowadays git)
-
+- VCS:
+  git, hg, svn
 
 //TAKE FOR GRANTED
 

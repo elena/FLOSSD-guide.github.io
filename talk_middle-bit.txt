@@ -1,0 +1,265 @@
+<!-- %:: autonomy, mastery and purpose -->
+<!-- $ not money -->
+<!-- # What we really want (it's not money) -->
+<!--   >> back to the idea of "# Fun -->
+<!--   - Actually can't stop us. -->
+<!--   >> autonomy, mastery and purpose -->
+
+<!--   >> # Skilling up/being the "Best" -->
+<!--   >> - not "during the day" -->
+<!--   >> - exposure -->
+<!--   >> - omgz the best -->
+
+<!-- %:: Best learning tool eva -->
+<!-- # Best CV eva -->
+<!--   >> I imagine everyone here know this: -->
+<!--   >> in these economic times we're a sector that's not suffering -->
+
+<!-- %aaron-swartz -->
+<!-- # Ethics -->
+<!--  - Aaron-Swartz-factor -->
+<!--  - altruism, values, "make the world a better place" -->
+<!--  - democracy, meritocracy -->
+<!--  - not cool to talk about in old-skool projects, -->
+<!--    >> but I think (but unvalidated) it's cool for us -->
+
+<!-- //HOWTO FIND PROJECTS -->
+
+<!-- %:: Where do I find projects? -->
+<!-- % map -->
+<!--  >> - this question has always bothered me -->
+<!--  >> - cheesy kids movie: "it's inside you" -->
+
+<!-- %topo1 -->
+<!-- $ what you know -->
+<!-- # Domain Knowledge -->
+<!-- - mountaineers, walkers, it's just different -->
+
+<!-- %topo2 -->
+<!-- $ what skills you have -->
+<!-- %topo3 -->
+<!-- $ what some random project owner's skills are -->
+
+<!-- !shout -->
+<!-- # All projects are different. -->
+<!-- $Cannot independently derive this stuff: research, listen -->
+<!--  >> Old version of this talk. -->
+<!--  - do what they do, follow procedure -->
+
+%# Kinds of projects
+- roles
+- age
+- communication mechanism
+# Roles: BDFL, Release Manager
+
+%# Kinds of projects
+- cathedral v. bizarre
+- more recent research* says: 3 types
+  - Foundation
+  - Community driven
+  - Monarchy
+*UC Davies
+
+%python-cookiecutter
+# We are python.
+ >> but we are python, Honestly all our projects are pretty similar.
+
+%# Kinds of projects
+- me says: 2 types
+
+%GRAPH (@mako)
+$Average 1
+ >> I suspected this but then had it confirmed by
+    @mako (friend of Aaron Swartz and ubuntu co-founder)
+- vast majority projects need all the help in the world (mine included)
+- very very tiny number famous project need very very high-skill specific help
+
+%climbers-climbers
+$ probably don't be learning craft on high-profile project
+$ maybe learn on low-profile project (depending on owner)
+- Sporting team analogy
+- "going to contribute to Django today" srsly.
+- don't learn here, learn "there"
+
+# Diametrically opposite experiences
+# Have a basic idea of the project before diving in
+
+%# Learn to Look
+- rather than being a user
+think like a contributor
+reporting bugs, documentation, trivial stuff (spelling, pep8)
+# Change your brain: learn to look for ways you can help
+- open your brain
+> use your brains, thinking is hard
+
+- what's *your* interest
+- what's *your* strength
+- what skill do *you* currently want to work on
+- what problem to *you* want to solve
+- what do you find satisfying to do in your spare time
+- weird form of teamwork
+
+%#Finding projects
+# YOU ARE AT A CONFERENCE NOW!
+- sprints
+- things you use
+- people you know
+- within your "domain"
+
+
+%#Things you can do
+%:: coder
+most time: documenting, maintaining , fixing, testing, *reading* code
+(Never taught at uni: ) @tef
+
+%#Things you can do
+Code Review (learning)
+HTML
+Translations
+Django users
+"Meeting a personal need"
+
+
+%#Things you can do
+Constructive Procrastination
+ > students
+
+%#Things you can do
+# (Not 1%) Flexible
+- (Not top 1%), but rest FOSS is really flexible.
+  Young projects can turn on a dime for your idea.
+  Envisioning and implementing all the fine details is expensive for new projects.
+
+%#Things you can do
+%:: Non-coders
+# 50%/50%
+- MSF, EWB, Pro Bono (band, sporting team)
+
+Every project needs: designers, content makers, writers
+
+# The world needs more technical lawyers!
+- sincerely Eben Moglin, Karen Sandler
+
+# The world needs more designers
+- fight the "programming since 8" phenomenon
+
+%bike-nuclear
+%"Parkinson's Law of Triviality"
+%:: 1957 argument that organizations give disproportionate weight to trivial issues
+- no domain experience/knowledge
+ >> only invested people allowed to bikeshed
+- beware of projects with a very well discussed logo and no code
+- easy to get sucked in to non-technically-threatening, fight this compulsion, leave it to the people really deep in (unless they specifically ask for advice!)
+
+
+Punch your weight
+Play your strength
+(confident, easy: dinner parties/marathons)
+Realistic expectations
+
+
+%# stable working > ego (sorry.)
+# Expect to get feedback (ie commits rejected)
+# Most patches aren't good enough
+>> free != useful
+   (mistake in thinking , giving it away for free)
+
+%# core
+That's why concept of "core" exists
+- ecosystem around
+- build up ranks
+- make plugins
+
+%# expedition
+Serious (1% projects) have serious, dedicated, committed, professional people
+
+# whose time is precious
+- committers are a very limited resource
+- signing up to big-time project, *have different expectations*
+
+push-pull social networking github
+things are so easy on github
+# You might waltz straight in
+- it's like farting
+
+
+// PICKED PROJECT, NOW WHAT
+
+#START SMALL
+> be thorough
+
+# VCS (nowadays git)
+#DVCS wars
+
+# 3rd great era, it may change again
+- sourceforge and github
+- bear in mind git is a bit arse to use still, 2st great DVCS
+- article so recently as 2007! lauding sourceforge
+
+# Start small
+- take nothing else away
+- Linus Stallman von Neuman
+- drive by shootings, gotta know you, trust you
+
+# Find out how/who communicate
+# Find out how to commit
+
+"STYLE"
+Learn the “style” of the existing project. Phrasing, structure, etc.
+There will probably be rules. Follow them. eg: PEP8
+If in doubt: copy
+Don’t make up a new style, you’ll look like a fool -- ASK!
+
+
+>> **
+# ------------- #####
+>> **
+
+# Different things matter to different people
+- In professional environment this sucks, in open source this is magic
+
+# Don't think people will have the same motive as you (Tridg)
+- people without a good ethical sense are in FOSS too
+
+
+
+
+18.5M
+11/7.5M
+
+
+
+%-
+If you are not a coder
+# LEARN GITHUB
+- $ git clone
+- commit, push, pull
+
+ >> in 2014 this is the advice,
+ this may change but we're at a highwater mark for github right now
+
+>> conceptually it goes something like this:
+
+- #1 reach out
+|notice itch
+|find code
+|eyeball community
+
+- #2 do your thing
+|fork
+|clone
+|grep (or code, etc)
+|commit, push (to your version)
+
+- #3 send back
+|pull request
+|(comment/email)
+
+
+Fun, compelling, interesting and challenging and we want to do it anyway.
+
+Fun, chaotic, anarchic, opinionated >> FUN
+Serendipidy: don't know where FLOSS will go
+Zero marginal cost.
+If we're clever and we work together we can attain what is probably the highest attainment in human history. Freedom.
+Could be hyperbole but they say the "c
