@@ -166,308 +166,332 @@ don't write own ...
 
 (// quick digression explaining copyleft)
 
+
+% copyleft
+
+<h3>License conditions:</h3>
+<p><strong>Source code must stay free!</strong><br>
+  Seriously. Changes must stay publically available, <br>
+  source <b>must</b> stay GPL. Legally.</p>
+<p>"Encourages" big corp to do the boring bits.<br>
+  It doesn't really matter at low level, but at scale, it'll matter.</p>
+
+>> GPL is *not* anti making-money
+
+<!-- $ must return changes; must stay GPL -->
+<!-- # Copyleft -->
+<!-- - must return changes -->
+<!-- - must stay GPL -->
+<!--   >> GPL is price of admission -->
+<!--   >> will make big corp do boring bits -->
+<!-- - it doesn't really matter at low level, but at scale, it'll matter -->
+
 %::“Open source to open source, corporation to corporation.
     If you do open source, you’re my hero and I support you.
     If you’re a corporation, let’s talk business.”
-$ http://zedshaw.com/essays/why_i_gpl.html
-# "business-to-business" (Zed's GPL)
-- no give back/exploitation
-- If this makes you angry ...
+<!-- $ http://zedshaw.com/essays/why_i_gpl.html -->
+<!-- # "business-to-business" (Zed's GPL) -->
+<!-- - no give back/exploitation -->
+<!-- - If this makes you angry ... -->
 
-% copyleft
-$ must return changes; must stay GPL
-# Copyleft
-- must return changes
-- must stay GPL
-  >> GPL is price of admission
-  >> will make big corp do boring bits
-- it doesn't really matter at low level, but at scale, it'll matter
+%license-graph(!!)
+<p class="overlay">Never has a little guy, with a volunteer lawyer lost</p>
+>> most of the FOSS world has always been on GPL
 
-@@ TRIDGE TALK
-Questions: Abusing license for moral advantage
-- devs will code around
-- patches leave behind
-- fork/rename
->> samba experience: every abuser has been ruined
+%TRIDGE-TALK(!!)
+%#Abusing licenses for financial advantage
+$>> COMP8440 Samba Case Study
+<p>- Core will code around<br>
+   - Patches leave forks behind<br>
+<p><em>Samba<em> experience:
+  <br>every abuser has been ruined</p>
 
-%license-graph
-# Licenses graph
-- Never has a little guy lost
-
-%ohloh graph
-# Python 2% (Black Duck, ohloh, @mako)
+%ohloh-graph(!!)
+%# Python is 2% FOSS world (Black Duck, ohloh, @mako)
   >> no offense guys
   - ~335K/ 1% active (0.7%/0.4% high/very high)
 
-%-
-# Changing a license is hard
-%:: sign off
-%:: contrib to python you need to submit paper form. realz.
-$ choose wisely
+%#Changing a license is hard
+<h3>Choose Wisely</h3>
+<p>Sign offs</p>
+<p>Example: <strong>Python</strong><br>
+  You need to sign and submit a paper form.</p>
+>> COMP8440 FOSS Licenses
 
-# Summary
-- why Licenses: because legally noone is allowed without
-# Copyleft does what it can to save us from exploitation
-- Eben Moglin: 9:1 hardware
-- Bill Joy: embarrassed for us
-- seriously consider proper copyleft: LGPL/Eclipse/MPL
-- MPLv2 came out late 2012
-- don't have to enforce, but have the option, hard to change license later
-Every last major tech company is involved in the the OSI sense now.
-Social waste transaction cost (quote: Daniel B. Ravicher (famous lawyer))
+%#Last Word on Licenses
+<p>No License no freedom.</p>
+<p>Copyleft does what it can to save us from exploitation:<br>
+  - GPL<br>
+  - MPLv2 (came out late 2012)
+</p>
+<p>(Doesn't have to be enforced, but have the option)</p>
+<p>"Social waste transaction cost"</p>
+<p>Every last major tech company is involved in the the OSI sense now.</p>
 
 %red-cross-through-$$
 #Why Free? Nett to zero.
  - itch to scratch: 15K, 1K, free (zero marginal cost)
 
 
+<!-- # Summary -->
+<!-- - why Licenses: because legally noone is allowed without -->
+<!-- # Copyleft does what it can to save us from exploitation -->
+<!-- - Eben Moglin: 9:1 hardware -->
+<!-- - Bill Joy: embarrassed for us -->
+<!-- - seriously consider proper copyleft: LGPL/Eclipse/MPL -->
+<!-- - MPLv2 came out late 2012 -->
+<!-- - don't have to enforce, but have the option, hard to change license later -->
+<!-- Every last major tech company is involved in the the OSI sense now. -->
+<!-- Social waste transaction cost (quote: Daniel B. Ravicher (famous lawyer)) -->
+
+
 ---
 
-%:: autonomy, mastery and purpose
-$ not money
-# What we really want (it's not money)
-  >> back to the idea of "# Fun
-  - Actually can't stop us.
-  >> autonomy, mastery and purpose
+<!-- %:: autonomy, mastery and purpose -->
+<!-- $ not money -->
+<!-- # What we really want (it's not money) -->
+<!--   >> back to the idea of "# Fun -->
+<!--   - Actually can't stop us. -->
+<!--   >> autonomy, mastery and purpose -->
 
-  >> # Skilling up/being the "Best"
-  >> - not "during the day"
-  >> - exposure
-  >> - omgz the best
+<!--   >> # Skilling up/being the "Best" -->
+<!--   >> - not "during the day" -->
+<!--   >> - exposure -->
+<!--   >> - omgz the best -->
 
-%:: Best learning tool eva
-# Best CV eva
-  >> I imagine everyone here know this:
-  >> in these economic times we're a sector that's not suffering
+<!-- %:: Best learning tool eva -->
+<!-- # Best CV eva -->
+<!--   >> I imagine everyone here know this: -->
+<!--   >> in these economic times we're a sector that's not suffering -->
 
-%aaron-swartz
-# Ethics
- - Aaron-Swartz-factor
- - altruism, values, "make the world a better place"
- - democracy, meritocracy
- - not cool to talk about in old-skool projects,
-   >> but I think (but unvalidated) it's cool for us
+<!-- %aaron-swartz -->
+<!-- # Ethics -->
+<!--  - Aaron-Swartz-factor -->
+<!--  - altruism, values, "make the world a better place" -->
+<!--  - democracy, meritocracy -->
+<!--  - not cool to talk about in old-skool projects, -->
+<!--    >> but I think (but unvalidated) it's cool for us -->
 
-//HOWTO FIND PROJECTS
+<!-- //HOWTO FIND PROJECTS -->
 
-%:: Where do I find projects?
-% map
- >> - this question has always bothered me
- >> - cheesy kids movie: "it's inside you"
+<!-- %:: Where do I find projects? -->
+<!-- % map -->
+<!--  >> - this question has always bothered me -->
+<!--  >> - cheesy kids movie: "it's inside you" -->
 
-%topo1
-$ what you know
-# Domain Knowledge
-- mountaineers, walkers, it's just different
+<!-- %topo1 -->
+<!-- $ what you know -->
+<!-- # Domain Knowledge -->
+<!-- - mountaineers, walkers, it's just different -->
 
-%topo2
-$ what skills you have
-%topo3
-$ what some random project owner's skills are
+<!-- %topo2 -->
+<!-- $ what skills you have -->
+<!-- %topo3 -->
+<!-- $ what some random project owner's skills are -->
 
-%:: Cannot independently derive this stuff: research, listen
-# All projects are different.
- >> Old version of this talk.
- - do what they do, follow procedure
+<!-- %:: Cannot independently derive this stuff: research, listen -->
+<!-- # All projects are different. -->
+<!--  >> Old version of this talk. -->
+<!--  - do what they do, follow procedure -->
 
-%python-cookiecutter
-# We are python.
- >> but we are python, Honestly all our projects are pretty similar.
+<!-- %python-cookiecutter -->
+<!-- # We are python. -->
+<!--  >> but we are python, Honestly all our projects are pretty similar. -->
 
-%# Kinds of projects
-# Roles: BDFL, Release Manager
-- roles
-- age
-- communication mechanism
+<!-- %# Kinds of projects -->
+<!-- # Roles: BDFL, Release Manager -->
+<!-- - roles -->
+<!-- - age -->
+<!-- - communication mechanism -->
 
-%# Kinds of projects
-- cathedral v. bizarre
-- more recent research* says: 3 types
-  - Foundation
-  - Community driven
-  - Monarchy
-*UC Davies
+<!-- %# Kinds of projects -->
+<!-- - cathedral v. bizarre -->
+<!-- - more recent research* says: 3 types -->
+<!--   - Foundation -->
+<!--   - Community driven -->
+<!--   - Monarchy -->
+<!-- *UC Davies -->
 
-%# Kinds of projects
-- me says: 2 types
+<!-- %# Kinds of projects -->
+<!-- - me says: 2 types -->
 
-%GRAPH (@mako)
-$Average 1
- >> I suspected this but then had it confirmed by
-    @mako (friend of Aaron Swartz and ubuntu co-founder)
-- vast majority projects need all the help in the world (mine included)
-- very very tiny number famous project need very very high-skill specific help
+<!-- %GRAPH (@mako) -->
+<!-- $Average 1 -->
+<!--  >> I suspected this but then had it confirmed by -->
+<!--     @mako (friend of Aaron Swartz and ubuntu co-founder) -->
+<!-- - vast majority projects need all the help in the world (mine included) -->
+<!-- - very very tiny number famous project need very very high-skill specific help -->
 
-%local-club
-$ probably don't be learning craft on high-profile project
-$ maybe learn on low-profile project (depending on owner)
-- Sporting team analogy
-- "going to contribute to Django today" srsly.
-- don't learn here, learn "there"
+<!-- %local-club -->
+<!-- $ probably don't be learning craft on high-profile project -->
+<!-- $ maybe learn on low-profile project (depending on owner) -->
+<!-- - Sporting team analogy -->
+<!-- - "going to contribute to Django today" srsly. -->
+<!-- - don't learn here, learn "there" -->
 
-# Have a basic idea of the project before diving in
-push-pull social networking github
-things are so easy on github
-# You might waltz straight in
-- it's like farting
-
-
-#Summary
-
-18.5M
-11/7.5M
+<!-- # Have a basic idea of the project before diving in -->
+<!-- push-pull social networking github -->
+<!-- things are so easy on github -->
+<!-- # You might waltz straight in -->
+<!-- - it's like farting -->
 
 
-# VCS (nowadays git)
+<!-- #Summary -->
 
-#DVCS wars
-
-# 3rd great era, it may change again
-- sourceforge and github
-- bear in mind git is a bit arse to use still, 2st great DVCS
-- article so recently as 2007! lauding sourceforge
-
-# Start small
-- take nothing else away
-- Linus Stallman von Neuman
-- drive by shootings, gotta know you, trust you
-
-# Find out how/who communicate
-
-# Find out how to commit
-
-"STYLE"
-Learn the “style” of the existing project. Phrasing, structure, etc.
-There will probably be rules. Follow them. eg: PEP8
-If in doubt: copy
-Don’t make up a new style, you’ll look like a fool -- ASK!
-
-# Expect to get rejected
-# Most patches aren't good enough
-- massive mistake, giving it away for free
- >> stable working > ego (sorry.) (Jeremy Rusten)
-
-That's why concept of "core" exists
-- ecosystem around
-- build up ranks
-- make plugins
-
-Serious, dedicated, committed professional people
-
-# whose time is precious
-- committers are a very limited resource
-
-# Different things matter to different people
-- In professional environment this sucks, in open source this is magic
-
-# Don't think people will have the same motive as you (Tridg)
-- people without a good ethical sense are in FOSS too
+<!-- 18.5M -->
+<!-- 11/7.5M -->
 
 
-Punch your weight
-Play your strength
-(confident, easy: dinner parties/marathons)
-Realistic expectations
-Every project needs: designers, content makers, writers
+<!-- # VCS (nowadays git) -->
+
+<!-- #DVCS wars -->
+
+<!-- # 3rd great era, it may change again -->
+<!-- - sourceforge and github -->
+<!-- - bear in mind git is a bit arse to use still, 2st great DVCS -->
+<!-- - article so recently as 2007! lauding sourceforge -->
+
+<!-- # Start small -->
+<!-- - take nothing else away -->
+<!-- - Linus Stallman von Neuman -->
+<!-- - drive by shootings, gotta know you, trust you -->
+
+<!-- # Find out how/who communicate -->
+
+<!-- # Find out how to commit -->
+
+<!-- "STYLE" -->
+<!-- Learn the “style” of the existing project. Phrasing, structure, etc. -->
+<!-- There will probably be rules. Follow them. eg: PEP8 -->
+<!-- If in doubt: copy -->
+<!-- Don’t make up a new style, you’ll look like a fool -- ASK! -->
+
+<!-- # Expect to get rejected -->
+<!-- # Most patches aren't good enough -->
+<!-- - massive mistake, giving it away for free -->
+<!--  >> stable working > ego (sorry.) (Jeremy Rusten) -->
+
+<!-- That's why concept of "core" exists -->
+<!-- - ecosystem around -->
+<!-- - build up ranks -->
+<!-- - make plugins -->
+
+<!-- Serious, dedicated, committed professional people -->
+
+<!-- # whose time is precious -->
+<!-- - committers are a very limited resource -->
+
+<!-- # Different things matter to different people -->
+<!-- - In professional environment this sucks, in open source this is magic -->
+
+<!-- # Don't think people will have the same motive as you (Tridg) -->
+<!-- - people without a good ethical sense are in FOSS too -->
 
 
-%-
-If you are not a coder
-# LEARN GITHUB
-- $ git clone
-- commit, push, pull
-
- >> in 2014 this is the advice,
- this may change but we're at a highwater mark for github right now
-
->> conceptually it goes something like this:
-
-- #1 reach out
-|notice itch
-|find code
-|eyeball community
-
-- #2 do your thing
-|fork
-|clone
-|grep (or code, etc)
-|commit, push (to your version)
-
-- #3 send back
-|pull request
-|(comment/email)
-
-%# Learn to Look
-- rather than being a user
-think like a contributor
-reporting bugs, documentation, trivial stuff (spelling, pep8)
-# Change your brain: learn to look for ways you can help
-
-%bike-nuclear
-%"Parkinson's Law of Triviality"
-%:: 1957 argument that organizations give disproportionate weight to trivial issues
-- no domain experience/knowledge
- >> only invested people allowed to bikeshed
-- beware of projects with a very well discussed logo and no code
+<!-- Punch your weight -->
+<!-- Play your strength -->
+<!-- (confident, easy: dinner parties/marathons) -->
+<!-- Realistic expectations -->
+<!-- Every project needs: designers, content makers, writers -->
 
 
-%#Things you can do
-most time: documenting, maintaining , fixing, testing, *reading* code
-> use your brains, thinking is hard
-(Never taught at uni: ) @tef
+<!-- %- -->
+<!-- If you are not a coder -->
+<!-- # LEARN GITHUB -->
+<!-- - $ git clone -->
+<!-- - commit, push, pull -->
 
-%#Things you can do
-Code Review (learning)
-HTML
-Translations
-Django users
-"Meeting a personal need"
+<!--  >> in 2014 this is the advice, -->
+<!--  this may change but we're at a highwater mark for github right now -->
 
-- what's *your* interest
-- what's *your* strength
-- what skill do *you* currently want to work on
-- what problem to *you* want to solve
-- what do you find satisfying to do in your spare time
-- weird form of teamwork
+<!-- >> conceptually it goes something like this: -->
 
-%#Things you can do
-Constructive Procrastination
- > students
+<!-- - #1 reach out -->
+<!-- |notice itch -->
+<!-- |find code -->
+<!-- |eyeball community -->
 
-%#Things you can do
-# (Not 1%) Flexible
-- (Not top 1%), but rest FOSS is really flexible.
-  Young projects can turn on a dime for your idea.
-  Envisioning and implementing all the fine details is expensive for new projects.
+<!-- - #2 do your thing -->
+<!-- |fork -->
+<!-- |clone -->
+<!-- |grep (or code, etc) -->
+<!-- |commit, push (to your version) -->
 
-%#Things you can do
-%:: Non-coders
-# 50%/50%
-- MSF, EWB, Pro Bono (band, sporting team)
+<!-- - #3 send back -->
+<!-- |pull request -->
+<!-- |(comment/email) -->
 
-# The world needs more technical lawyers!
-- sincerely Eben Moglin, Karen Sandler
+<!-- %# Learn to Look -->
+<!-- - rather than being a user -->
+<!-- think like a contributor -->
+<!-- reporting bugs, documentation, trivial stuff (spelling, pep8) -->
+<!-- # Change your brain: learn to look for ways you can help -->
 
-# The world needs more designers
-- fight the "programming since 8" phenomenon
-
-
-%#Finding projects
-# YOU ARE AT A CONFERENCE NOW!
-- sprints
-- things you use
-- people you know
-- within your "domain"
-( >> post "that question bothers me rant)
+<!-- %bike-nuclear -->
+<!-- %"Parkinson's Law of Triviality" -->
+<!-- %:: 1957 argument that organizations give disproportionate weight to trivial issues -->
+<!-- - no domain experience/knowledge -->
+<!--  >> only invested people allowed to bikeshed -->
+<!-- - beware of projects with a very well discussed logo and no code -->
 
 
-Fun, compelling, interesting and challenging and we want to do it anyway.
+<!-- %#Things you can do -->
+<!-- most time: documenting, maintaining , fixing, testing, *reading* code -->
+<!-- > use your brains, thinking is hard -->
+<!-- (Never taught at uni: ) @tef -->
 
-Fun, chaotic, anarchic, opinionated >> FUN
-Serendipidy: don't know where FLOSS will go
-Zero marginal cost.
-If we're clever and we work together we can attain what is probably the highest attainment in human history. Freedom.
-Could be hyperbole but they say the "c
+<!-- %#Things you can do -->
+<!-- Code Review (learning) -->
+<!-- HTML -->
+<!-- Translations -->
+<!-- Django users -->
+<!-- "Meeting a personal need" -->
+
+<!-- - what's *your* interest -->
+<!-- - what's *your* strength -->
+<!-- - what skill do *you* currently want to work on -->
+<!-- - what problem to *you* want to solve -->
+<!-- - what do you find satisfying to do in your spare time -->
+<!-- - weird form of teamwork -->
+
+<!-- %#Things you can do -->
+<!-- Constructive Procrastination -->
+<!--  > students -->
+
+<!-- %#Things you can do -->
+<!-- # (Not 1%) Flexible -->
+<!-- - (Not top 1%), but rest FOSS is really flexible. -->
+<!--   Young projects can turn on a dime for your idea. -->
+<!--   Envisioning and implementing all the fine details is expensive for new projects. -->
+
+<!-- %#Things you can do -->
+<!-- %:: Non-coders -->
+<!-- # 50%/50% -->
+<!-- - MSF, EWB, Pro Bono (band, sporting team) -->
+
+<!-- # The world needs more technical lawyers! -->
+<!-- - sincerely Eben Moglin, Karen Sandler -->
+
+<!-- # The world needs more designers -->
+<!-- - fight the "programming since 8" phenomenon -->
+
+
+<!-- %#Finding projects -->
+<!-- # YOU ARE AT A CONFERENCE NOW! -->
+<!-- - sprints -->
+<!-- - things you use -->
+<!-- - people you know -->
+<!-- - within your "domain" -->
+<!-- ( >> post "that question bothers me rant) -->
+
+
+<!-- Fun, compelling, interesting and challenging and we want to do it anyway. -->
+
+<!-- Fun, chaotic, anarchic, opinionated >> FUN -->
+<!-- Serendipidy: don't know where FLOSS will go -->
+<!-- Zero marginal cost. -->
+<!-- If we're clever and we work together we can attain what is probably the highest attainment in human history. Freedom. -->
+<!-- Could be hyperbole but they say the "c -->
 
 
 -

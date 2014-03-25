@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 <!-- %:: autonomy, mastery and purpose -->
 <!-- $ not money -->
 <!-- # What we really want (it's not money) -->
@@ -18,7 +19,7 @@
 <!-- %aaron-swartz -->
 <!-- # Ethics -->
 <!--  - Aaron-Swartz-factor -->
-<!--  - altruism, values, "make the world a better place" -->
+<!--  - altruism, values, "make the world a better place -->
 <!--  - democracy, meritocracy -->
 <!--  - not cool to talk about in old-skool projects, -->
 <!--    >> but I think (but unvalidated) it's cool for us -->
@@ -42,99 +43,142 @@
 
 <!-- !shout -->
 <!-- # All projects are different. -->
-<!-- $Cannot independently derive this stuff: research, listen -->
-<!--  >> Old version of this talk. -->
-<!--  - do what they do, follow procedure -->
 
 %# Kinds of projects
-- roles
-- age
-- communication mechanism
-# Roles: BDFL, Release Manager
+<p>How <strong>old</strong> is the project?</p>
+<p>Where in its <strong>lifecycle</strong> is it?<br>
+~ New project<br>
+~ Active progression<br>
+~ Mature, maintenance phase<br>
+~ Dead</p>
+
+%cathedral-bizarre
+%# Kinds of projects
+$*UC Davies
+<div class="halfR">
+  <p>Cathedral v. Bizarre</p>
+  <p>Recent research*:<br>
+  ~ Foundation<br>
+  ~ Community driven<br>
+  ~ Monarchy</p>
+</div>
+>> Cannot independently derive this stuff: research, listen
 
 %# Kinds of projects
-- cathedral v. bizarre
-- more recent research* says: 3 types
-  - Foundation
-  - Community driven
-  - Monarchy
-*UC Davies
+<p>How <strong>many people</strong> are involved?</p>
+<p>What clear <strong>roles</strong> are defined?<br>
+~ BDFL/s<br>
+~ Release Manager</p>
+>> Assume everyone is crazy-busy all the time (unless they clearly say otherwise)
 
-%python-cookiecutter
-# We are python.
- >> but we are python, Honestly all our projects are pretty similar.
 
-%# Kinds of projects
-- me says: 2 types
+%pep8
+##We are python
+<h2>Me says: <br>2 types of project</h2>
+<!-- >> but we are python, Honestly all our projects are pretty similar. -->
+<!-- %# 2 Kinds of projects -->
+<!-- - me says: 2 types -->
 
 %GRAPH (@mako)
 $Average 1
  >> I suspected this but then had it confirmed by
     @mako (friend of Aaron Swartz and ubuntu co-founder)
-- vast majority projects need all the help in the world (mine included)
-- very very tiny number famous project need very very high-skill specific help
 
 %climbers-climbers
-$ probably don't be learning craft on high-profile project
+<h2 class="overlay">BE A PRO or START SMALL</h2>
+
+!! $ probably don't be learning craft on high-profile project
 $ maybe learn on low-profile project (depending on owner)
 - Sporting team analogy
 - "going to contribute to Django today" srsly.
 - don't learn here, learn "there"
 
+
 # Diametrically opposite experiences
 # Have a basic idea of the project before diving in
 
-%# Learn to Look
-- rather than being a user
-think like a contributor
-reporting bugs, documentation, trivial stuff (spelling, pep8)
-# Change your brain: learn to look for ways you can help
-- open your brain
-> use your brains, thinking is hard
 
-- what's *your* interest
-- what's *your* strength
-- what skill do *you* currently want to work on
-- what problem to *you* want to solve
-- what do you find satisfying to do in your spare time
-- weird form of teamwork
+18.5M
+11/7.5M
 
-%#Finding projects
-# YOU ARE AT A CONFERENCE NOW!
-- sprints
-- things you use
-- people you know
-- within your "domain"
-
-
-%#Things you can do
-%:: coder
-most time: documenting, maintaining , fixing, testing, *reading* code
-(Never taught at uni: ) @tef
-
-%#Things you can do
-Code Review (learning)
-HTML
-Translations
-Django users
-"Meeting a personal need"
-
-
-%#Things you can do
-Constructive Procrastination
- > students
-
-%#Things you can do
-# (Not 1%) Flexible
-- (Not top 1%), but rest FOSS is really flexible.
-  Young projects can turn on a dime for your idea.
-  Envisioning and implementing all the fine details is expensive for new projects.
-
-%#Things you can do
-%:: Non-coders
+%#Non-coders
 # 50%/50%
 - MSF, EWB, Pro Bono (band, sporting team)
 
+
+%#-
+<h3>very very <b>tiny number</b> famous project need <br>
+  <strong>very highly skill, specific help</strong></h3>.
+
+<h3>vast <b>majority</b> projects need <br>
+  <strong>all the help in the world</strong></h3>.
+
+%#"Meeting a personal need"
+<p>- what's *your* <strong>interest</strong><br>
+- what's *your* <strong>strength</strong><br>
+- what <strong>skill</strong> do *you* currently want to work on<br>
+- what <strong>problem</strong> to *you* want to solve<br>
+- what do you do in your <strong>spare time</strong><br>
+- weird form of teamwork</p>
+>> AKA "Scratching your own itch"
+
+%#Think like a Contributor
+<h2>Learn to Look</h2>
+<p>Rather than being a user, make an effort:</p>
+<p>- Replicate bugs<br>
+   - Read and understand documentation (for coherence)<br>
+   - Details, details, details (spelling, pep8)</p>
+>> use your brain
+<!-- # Change your brain: learn to look for ways you can help -->
+<!-- - open your brain -->
+<!-- - use your brains, thinking is hard -->
+
+%bike-nuclear
+%"Parkinson's Law of Triviality"
+<blockquote>1957 argument that organizations give disproportionate weight to trivial issues</blockquote>
+<p>No domain experience/knowledge required</p>
+<p>Only invested people allowed to bikeshed</p>
+- beware of projects with a very well discussed logo and no code
+>> It's easy to get sucked in to non-technically-threatening discussions, fight this compulsion.<br>
+(unless your advice is specifically ask for!)
+
+%#Finding projects
+<h3>YOU ARE AT A CONFERENCE NOW!</h3>
+<p>- sprints</p>
+<p>Tools/projects <strong>you use</strong></p>
+<p>Projects <strong>people you know</strong> are working on</p>
+<p>Projects within your <strong>"domain"</strong> (hockey, GIS, pigeon-racing)</p>
+>> change your brain to looking
+
+%#Things you can do as a <strong>coder</strong>
+<p>Spend most your time:
+<br>documenting
+<br>maintaining
+<br>fixing
+<br>testing
+<br><strong>reading</strong> code</p>
+>>It's not all about the uber-ego commits
+
+%#Things you can do as <strong>coder</strong>
+<p>Code Review (learning)<br>
+  HTML<br>
+  Bug triage and replication<br>
+  Users list (fielding questions)</p>
+
+%#Things you can do as a <strong>coder</strong>
+<h3>(Not 1%) Projects are really Flexible</h3>
+- (Not top 1%), but rest FOSS is really flexible.
+<p>Young projects can turn on a dime for your idea.</p>
+<p>Envisioning and implementing <strong>all the details</strong><br>
+  is expensive for new projects.</p>
+>>Maybe it *is* about the uber-ego commits
+
+%# Stable/Working > your ego (sorry.)
+<p>Expect to get <strong>"feedback"</strong> (ie rejection)</p>
+>> free ⊄ useful (!≟)
+
+%#Things you can do as a <strong>non-coder</strong>
+<p>Code Review (learning)<br>
 Every project needs: designers, content makers, writers
 
 # The world needs more technical lawyers!
@@ -143,26 +187,15 @@ Every project needs: designers, content makers, writers
 # The world needs more designers
 - fight the "programming since 8" phenomenon
 
-%bike-nuclear
-%"Parkinson's Law of Triviality"
-%:: 1957 argument that organizations give disproportionate weight to trivial issues
-- no domain experience/knowledge
- >> only invested people allowed to bikeshed
-- beware of projects with a very well discussed logo and no code
-- easy to get sucked in to non-technically-threatening, fight this compulsion, leave it to the people really deep in (unless they specifically ask for advice!)
 
+%#Things you can do
+Constructive Procrastination
+ > students
 
 Punch your weight
 Play your strength
 (confident, easy: dinner parties/marathons)
 Realistic expectations
-
-
-%# stable working > ego (sorry.)
-# Expect to get feedback (ie commits rejected)
-# Most patches aren't good enough
->> free != useful
-   (mistake in thinking , giving it away for free)
 
 %# core
 That's why concept of "core" exists
@@ -183,7 +216,7 @@ things are so easy on github
 - it's like farting
 
 
-// PICKED PROJECT, NOW WHAT
+// I KNOW WHAT I WANT TO DO, NOW WHAT
 
 #START SMALL
 > be thorough
@@ -209,6 +242,7 @@ Learn the “style” of the existing project. Phrasing, structure, etc.
 There will probably be rules. Follow them. eg: PEP8
 If in doubt: copy
 Don’t make up a new style, you’ll look like a fool -- ASK!
+<!--  - do what they do, follow procedure -->
 
 
 >> **
@@ -223,9 +257,6 @@ Don’t make up a new style, you’ll look like a fool -- ASK!
 
 
 
-
-18.5M
-11/7.5M
 
 
 
