@@ -18,7 +18,7 @@
 <!-- %aaron-swartz -->
 <!-- # Ethics -->
 <!--  - Aaron-Swartz-factor -->
-<!--  - altruism, values, "make the world a better place" -->
+<!--  - altruism, values, "make the world a better place -->
 <!--  - democracy, meritocracy -->
 <!--  - not cool to talk about in old-skool projects, -->
 <!--    >> but I think (but unvalidated) it's cool for us -->
@@ -47,32 +47,43 @@
 <!--  - do what they do, follow procedure -->
 
 %# Kinds of projects
+<p>How <strong>old</strong> is the project?</p>
+<p>How <strong>many people</strong> are involved?</p>
+<p>Where in its <strong>lifecycle</strong> is it?</p>
 - roles
 - age
 - communication mechanism
-# Roles: BDFL, Release Manager
+
 
 %# Kinds of projects
-- cathedral v. bizarre
-- more recent research* says: 3 types
-  - Foundation
-  - Community driven
+$*UC Davies
+<div class="halfR">
+  <p>Cathedral v. Bizarre</p>
+  <p>Recent research*:<br>
+  - Foundation<br>
+  - Community driven<br>
   - Monarchy
-*UC Davies
+</p>
+</div>
+<!-- - cathedral v. bizarre -->
+<!-- - more recent research* says: 3 types -->
 
-%python-cookiecutter
-# We are python.
- >> but we are python, Honestly all our projects are pretty similar.
-
-%# Kinds of projects
-- me says: 2 types
+%pep8
+##We are python
+<h2>Me says: <br>2 types of project</h2>
+<!-- >> but we are python, Honestly all our projects are pretty similar. -->
+<!-- %# 2 Kinds of projects -->
+<!-- - me says: 2 types -->
 
 %GRAPH (@mako)
 $Average 1
  >> I suspected this but then had it confirmed by
     @mako (friend of Aaron Swartz and ubuntu co-founder)
+
+
 - vast majority projects need all the help in the world (mine included)
 - very very tiny number famous project need very very high-skill specific help
+# Roles: BDFL, Release Manager
 
 %climbers-climbers
 $ probably don't be learning craft on high-profile project
