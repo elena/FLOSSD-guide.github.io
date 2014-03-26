@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
-
 how-many
 <h3 class="overlay">3.3M People on ohloh</h3>
 <h3 class="overlay">&#8532;M projects</h3>
 <h3 class="overlay">18.5M programmers</h3>
 <p class="overlay">
-  <div>11M professionals<br>
-       7.5M "hobbiests"</div>
+  <div>11M professionals<br>7.5M "hobbiests"</div>
 </p>
 IDC, 2104 survey
 
@@ -34,7 +32,6 @@ Connection
 <!--   >> I imagine everyone here know this: -->
 <!--   >> in these economic times we're a sector that's not suffering -->
 
-
 <!-- %aaron-swartz -->
 <!-- # Ethics -->
 <!--  - Aaron-Swartz-factor -->
@@ -42,9 +39,6 @@ Connection
 <!--  - democracy, meritocracy -->
 <!--  - not cool to talk about in old-skool projects, -->
 <!--    >> but I think (but unvalidated) it's cool for us -->
-
-
-<!-- //DOMAIN KNOWLEDGE -->
 
 <!-- %:: Where do I find projects? -->
 <!-- % map -->
@@ -71,7 +65,7 @@ Think like a Contributor
 <p>Rather than being a passive user, make an effort:</p>
 <p>- Replicate bugs<br>
    - Read and understand documentation (for coherence)<br>
-   - Details, details, details (spelling, cruft)</p>
+   - Details, details, details (spelling, crxhtml-mouft)</p>
 all these things take *effort*, use your brain
 <!-- # Change your brain: learn to look for ways you can help -->
 <!-- - open your brain -->
@@ -85,9 +79,7 @@ Projects that help: Open Hatch, github/explore, ohloh
 >> fact which surfaced from COMP8440
 # All projects are different.
 
-
 <!-- //KINDS of PROJECTS -->
-
 %# Kinds of projects
 <p>How <strong>old</strong> is the project?</p>
 <p>Where in its <strong>lifecycle</strong> is it?<br>
@@ -123,7 +115,6 @@ $*UC Davies
 # Diametrically opposite experiences
 # Rule still stands have a basic idea of the project before diving in
 
-
 %GRAPH (@mako)
 $Average 1
  >> I suspected this but then had it confirmed by
@@ -132,15 +123,11 @@ $Average 1
 <!-- %# 2 Kinds of projects -->
 <!-- - me says: 2 types -->
 %#-
-<h3>very very <b>tiny number</b> famous project need <br>
-  <strong>very highly skill, specific help</strong></h3>.
-
-<h3>vast <b>majority</b> projects need <br>
-  <strong>all the help in the world</strong></h3>.
-
+<h3>very very <b>tiny number</b> famous project need <br> <strong>very highly skill, specific help</strong></h3>.
+<h3>vast <b>majority</b> projects need <br> <strong>all the help in the world</strong></h3>.
 
 //PROJECTS and YOU
-
+<!-- //DOMAIN KNOWLEDGE -->
 <!-- %topo1 -->
 <!-- $ what you know -->
 <!-- # Domain Knowledge -->
@@ -150,7 +137,6 @@ $Average 1
 <!-- $ what skills you have -->
 <!-- %topo3 -->
 <!-- $ what some random project owner's skills are -->
-
 
 #START SMALL
 > be thorough
@@ -162,7 +148,6 @@ $ maybe learn on low-profile project (depending on owner)
 - Sporting team analogy
 - "going to contribute to Django today" srsly.
 - don't learn here, learn "there"
-
 
 %# expedition
 Serious (1% projects) have serious, dedicated, committed, professional people
@@ -181,14 +166,11 @@ That's why concept of "core" exists
 Constructive Procrastination
  > students
 
-
-Punch your weight
-Play your strength
-(For your first commit -- confident, easy: dinner parties/marathons)
-Realistic expectations
-
-
-# You might waltz straight in
+<p>Punch your weight<br>
+Play your strength<br>
+(For your first commit -- confident, easy: dinner parties/marathons)<br>
+Realistic expectations</p>
+You might waltz straight in.
 - it's like farting
 
 Engage socially
@@ -225,7 +207,6 @@ everyone changes
 >> free ⊄ useful (!≟)
 
 
-
 %#Non-coders
 # 50%/50%
 - MSF, EWB, Pro Bono (band, sporting team)
@@ -242,7 +223,6 @@ Every project needs: designers, content makers, writers
 - fight the "programming since 8" phenomenon
 
 
-
 %#Finding projects
 <h3>YOU ARE AT A CONFERENCE NOW!</h3>
 <p>- sprints</p>
@@ -251,27 +231,20 @@ Every project needs: designers, content makers, writers
 <p>Projects within your <strong>"domain"</strong> (hockey, GIS, pigeon-racing)</p>
 >> "Learn to look" redux: change your brain to looking
 
-
-
-
-
 >> **
 # ------------- #####
 >> **
-
 
 %-
 If you are not a coder
 (2014 advice)
 # LEARN GITHUB
 
-
 %#What is git?
 <h2>VERSION CONTROL SYSTEM (VCS)</h2>
 >>
 # VCS
 #DVCS wars
-
 
 # 3rd great era, it may change again
 - sourceforge and github
@@ -285,7 +258,6 @@ If you are not a coder
 
 # Find out how/who communicate
 # Find out how to commit
-
 
 - $ git clone
 - commit, push, pull
@@ -313,7 +285,6 @@ If you are not a coder
 
 #START SMALL
 > be thorough
-
 
 %bike-nuclear
 %"Parkinson's Law of Triviality"
