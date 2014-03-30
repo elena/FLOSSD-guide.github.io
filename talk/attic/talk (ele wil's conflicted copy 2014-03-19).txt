@@ -1,0 +1,363 @@
+VCS graph
+License graph
+
+zero v non-zero marginal cost
+100bn per annum (Eben Moglin)
+
+# me
+- long and stupid, ask me later
+- long standing interest in Open Source, it's cliched but ITBTWTCL
+
+# COMP8440
+- tons of references. 
+--
+
+# Interesting Times redux
+- Forbes article
+- Honestly the most interesting thing about open source right now is the turning of the tide. 
+
+--
+
+//DEFINING FLOSS
+
+# What is Open Source, Anyway?
+- this talk should always start with beer
+
+# Gratuit v. Libre
+- failing in the english language
+  # beer v. folk
+
+# FLOSSD
+- Free Libre Open-Source (Software Development) (inherited from Tridg)
+- 1998 boardroom in Netscape, scared for free (anti-establishment), "implicitly threatening"
+  agressive rebranding
+
+
+//DEFINING COPYRIGHT
+
+# Copyright
+- 1700s
+  # automatically
+
+# fixed/creative
+
+
+# 4 things
+- @@ LIST FOUR
+  (obvious really)
+
+# Interesting exceptions
+-   Fashion (utilitarian)
+    Comedy (not-fixed)
+    Automotive (utilitarian)
+    Architecture (utilitarian)
+    Recipes (instructions)
+    Magic (instructions/not fixed)
+    Tattoos
+    Rules of Games
+    Perfumes
+
+
+//DEFINING SOFTWARE
+
+# What is Free Software then?
+
+# Command line
+- our art started in the 60s
+
+# IBM
+- first proprietary Software
+
+# Stallman
+- early, 1980, 1985 (FSF), 1989 (GPL)
+
+# Stallman v. Gates
+- this is when it came to a head
+
+# So fixe, Such creative
+- Gosh it (automatically) applies to us
+
+
+//DEFINING LICENSES
+
+# "Open Source"/Free
+- offsetting copyright restriction
+ >> very clear no licence, no go! (github)
+  (all the fruits in the forest are poisonous)
+  - if you're not sure, assume your work is derived and inherit license
+
+# OSI
+- 63, offset those 4
+
+# M$ os code for academics (talking copyright and kernels)
+- lawyer drop from the sky
+
+# Derived (where is the border of copyright)
+- windows >> "random script", django app? maybe derived
+  @@ TRIDG TALK
+
+# Lions' Commentary on UNIX with Source Code
+  - AT&T June 1979, could not study it legally in class
+  - the academic/research license  no longer automatically permitted classroom use
+- Tenenbaum wrote minix
+- Linus wrote Linux
+  - Tenenbaum famously told him he'd fail him
+  - own wiki page: Tanenbaum–Torvalds debate
+
+//DEFINING COPYLEFT
+
+(Fun?)
+
+# Copyleft
+- must return changes
+- must stay GPL
+
+# GPL is price of admission
+- it doesn't really matter at low level, but at scale, it'll matter
+
+# Python 2% (Black Duck, ohloh, @mako)
+- no offense guys
+- ~335K/ 1% active (0.7%/0.4% high/very high)
+
+# "business-to-business" (Zed's GPL)
+- no give back/exploitation
+“Open source to open source, corporation to corporation.
+If you do open source, you’re my hero and I support you.
+If you’re a corporation, let’s talk business.”
+- If this makes you angry ...
+
+# Licenses graph
+- Never has a little guy lost
+
+# Summary
+- 15% of all repositories had license files (Armin Ronacher)
+- 25% of those have the license only mentioned in the Readme file
+- why Licenses: because legally noone is allowed without
+
+# Copyleft does what it can to save us from exploitation
+- Eben Moglin: 9:1 hardware
+- Bill Joy: embarrassed for us
+- seriously consider proper copyleft: LGPL/Eclipse/MPL
+- MPLv2 came out late 2012
+- don't have to enforce, but have the option, hard to change license later
+
+Social waste transaction cost (Daniel B. Ravicher)
+
+---
+
+
+# What we really want (it's not money)
+- autonomy, mastery and purpose
+
+# Fun
+- Actually can't stop us.
+
+# Skilling up/being the "Best"
+- not "during the day"
+- exposure
+- omgz the best
+
+//HOWTO FIND PROJECTS
+
+# Where do I find projects?
+- this question has always bothered me
+- cheesy kids movie: "it's inside you"
+
+# Domain Knowledge
+- mountaineers, walkers, it's just different
+
+# Old version of this talk.
+
+
+# Kinds of projects
+- cathedral v. bizarre
+- 3 types: (UC Davies)
+  - Foundation
+  - Community driven
+  - Monarchy
+- roles
+- age
+- communication mechanisms
+
+# "going to contribute to Django today" srsly.
+- don't learn here, learn "there"
+
+# Average 1 (@mako)
+- vast majority projects need all the help in the world (mine included)
+- very very tiny number famous project need very very high-skill specific help
+
+- Sporting team analogy
+
+# You might waltz straight in
+- it's like farting (@fat)
+
+# 50%/50%
+- MSF, EWB, Pro Bono (band, sporting team)
+
+
+- what's *your* interest
+- what's *your* strength
+- what skill do *you* currently want to work on
+- what problem to *you* want to solve
+- what do you find satisfying to do in your spare time
+- weird form of teamwork
+
+# Change your brain: learn to look
+
+(Never taught at uni: ) @tef
+
+Constructive Procrastination
+ > students
+
+Code Review (learning)
+HTML
+Translations
+"Meeting a personal need"
+
+
+
+# YOU ARE AT A CONFERENCE NOW!
+
+Fun, compelling, interesting and challenging and we want to do it anyway.
+Zero marginal cost.
+If we're clever and we work together we can attain what is probably the highest attainment in human history. Freedom.
+Could be hyperbole but they say the "c
+
+- 
+
+//HOWTO CONTRIBUTE
+
+# VCS (nowadays git)
+
+# 3rd great era, it may change again
+- sourceforge and github
+- bear in mind git is a bit arse to use still, 2st great DVCS
+
+# Start small
+- take nothing else away
+- Linus Stallman von Neuman
+- drive by shootings, gotta know you, trust you
+
+# Find out how/who communicate
+
+# Find out how to commit
+
+"STYLE"
+Learn the “style” of the existing project. Phrasing, structure, etc.
+There will probably be rules. Follow them. eg: PEP8
+If in doubt: copy
+Don’t make up a new style, you’ll look like a fool -- ASK!
+# Expect to get rejected
+
+# whose time is precious
+
+//GENERAL
+
+# Flexible
+- (Not top 1%), but rest FOSS is really flexible.
+  Young projects can turn on a dime for your idea.
+  Envisioning and implementing all the fine details is expensive for new projects.
+
+# Tools
+- VCS (nowadays git)
+
+//TAKE FOR GRANTED
+
+# Tools
+- Mailing-lists/IRC (not as obvious as it seems)
+- Learn to use: Issue tracker
+  "Design decision needed"/"close"v."feedback" fields should and shouldn’t use
+
+(spend ... time ... studying these things)
+(a very large number of us a self-taught from other fields)
+
+# Tools
+- Text Editor
+  (pick a good one, learn to use it well)
+- Source Control Management (SCM)
+  (eg: git)
+
+# Tools
+- Learn to use: Command Line (CLI)
+  wildcarding, piping, here documents, command substitution, variables and control structures for condition-testing and iteration
+- grep (or ack) and find
+- Regular Expressions (aka: regex)
+
+(these take YEARS to learn!)
+(these are our basic skills, we spend most of the time with them)
+
+# Tools
+- WRITE (clearly)
+- Popular markups: ReST Markdown
+
+
+//PARTICIPATION
+
+# SAYING: I DON’T KNOW
+- On feeling stupid: Everyone does. Everyone is about most things.
+  The “best” leverage this to their advantage (usually very humble.)
+  Harry Kroto, HE ... was
+
+# ASK/LISTEN Rule of Thumb: (@pydanny)
+- stuck for 1⁄2 hour.
+- Go to: IRC, mailing-list
+- Don’t agonise, spare yourself the pain!
+  Often:
+  ~ experienced people can see/feel you struggling (but seldom say anything)
+  ~ so, in short term you feel like gumby BUT: learn something, might actually look clever ~ in medium term: your corpus is building faster
+
+# terse təәrs/ adjective
+ASK/EXPLAIN State as simply as possible. State it up front.
+Time is precious: be terse
+1. sparing in the use of words; abrupt. "a terse statement"
+synonyms: brief, short, to the point, concise, succinct, crisp, pithy, incisive,
+No fluffy language, no big explanation. BE CORDIAL but just get to the core of it.
+
+# Turn up
+- Decisions are made by the people who turn up.
+- Hackerspaces User Groups Conferences
+  Congratulations you are already here. Connect and develop.
+
+# SET PEOPLE'S EXPECTATIONS
+Probably the most valuable thing I’ve learnt in the last 5 years.
+ - TELL PEOPLE WHAT YOU’RE DOING
+   - For their sake.
+   - Save them from wondering.
+ - DO WHAT YOU SAY YOU’RE GOING TO DO (18%)
+   - But, if you can’t communicate!
+   - FOSS people are spectacularly understanding.
+   
+# Don’t get disheartened.
+- All mistakes will eventually be washed clean by time and entropy.
+- Communities are very robust.
+
+---
+
+Fin:
+
+# Interesting times
+- Tech is becoming mainstream: Culture is changing
+- Stream-lined ability to contribute/communicate.
+- Re-learning old lessons.
+- Demographic imbalance: Not just chicks, it’s older, multicultural.
+
+:~:CHANGING DEMOGRAPHICS
+Difference is a continuum. Shared culture and technical knowledge. Skills!
+
+- Copyright: Post-GPLv3 world
+- Patents: revolution is coming
+
+
+# Interesting times fin
+- "Software"
+- mainstreaming
+
+- expropriation of "open source"
+  farms, cars, localised economies
+
+- There will always be some form of “Open Source”.
+- People like us will make it happen.
+
+---
+
+Steals your whole source code.
